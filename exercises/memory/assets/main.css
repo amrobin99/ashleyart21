@@ -1,0 +1,41 @@
+body{
+	background-color: lightpink;
+	padding: 25px;
+}
+h1{
+	color: deeppink; 
+	font-family: monospace;
+	font-size: 72px;
+	font-style: oblique;
+}
+h2{color: hotpink;
+   font-family: arial;
+   font-size: 20px;
+}
+
+.question-container {
+  color: black;
+  background: hotpink;
+  border: 10px deeppink;
+  margin: 5px;
+  padding: 10px;
+  font-family: arial;
+  font-size: 16px;
+}
+.answer1{color: aliceblue;
+	font-family: brush;
+	font-size: 24px
+}
+.answer2{color: aliceblue;
+	font-family: brush;
+	font-size: 24px
+}
+.answer3{color: aliceblue;
+	font-family: brush;
+	font-size: 24px
+}
+.answer4{color: aliceblue;
+	font-family: brush;
+	font-size: 24px
+}
+

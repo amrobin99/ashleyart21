@@ -1,0 +1,37 @@
+body{
+	background-color: #f1a8da;
+	padding: 25px;
+}
+
+p.double {border-style: double;}
+
+h1 {
+  padding-left: 550px;
+  font-family: 'Nixie One', arial;
+}
+
+p:hover {background-color: hotpink;}
+
+
+h2 {
+  text-align: center;
+  background-color: white;
+  border-style: double;
+  height: 30px;
+  padding-top: 7px;
+  font-family: sans-serif;
+}
+
+
+img {max-width: 440px;
+     max-height: 440px;}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding:10px;
+  min-height: 200px;
+}
+
+

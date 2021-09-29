@@ -1,0 +1,39 @@
+
+body {
+  background-color:  #FF7272;
+  font-family:  monospace;
+  padding: 50px;
+}
+@media (max-width: 300px) {
+  body {
+    background-color: black;
+    color:  white;
+  }
+}
+@media (max-height: 650px) {
+  body {
+    background-color: paleturquoise;
+  } 
+
+img {
+  max-width: 100%;
+}
+
+.container {max-width: 750px;}
+  margin: 0 auto;
+}
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+  body {
+    font-size: 40px;
+  }
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  body {
+    font-size: 50px;
+  }
+
+}
