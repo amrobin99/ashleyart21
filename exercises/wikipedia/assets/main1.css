@@ -1,0 +1,59 @@
+font-family: 'EB Garamond', serif;
+font-family: 'Roboto Slab', serif;
+
+body{
+	padding: 25px;
+}
+
+h1{
+	font-family: 'EB Garamond', serif;
+	font-size: 48px;
+	padding:  10px;
+}
+
+h6{
+	font-family: 'EB Garamond', serif;
+	padding:  10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding:10px;
+  min-height: 200px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+}
+
+
+.item{
+	width: calc(100%/2);
+	padding: 10px;
+}
+
+
+
+h2{font-family: 'EB Garamond', serif;}
+
+p{font-family: 'Roboto Slab', serif;}
+
+.biography {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding:10px;
+  min-height: 200px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+}
+
+.item4 {display: none;}
+
+.item6{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  max-height: 400px;
+  max-width: 100px;}
+
+.jump {padding: 10px}
