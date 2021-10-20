@@ -1,0 +1,26 @@
+body {background-color: #181e2e;
+font-family: monospace;
+ }
+
+
+#condiments {height: 500px;}
+
+
+.container {
+  animation-duration: 3s;
+  animation-name: spinType;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes spinType {
+  0% {
+    transform: rotate(0.5turn);
+  }
+  60% {
+    transform: rotate(0.5turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
