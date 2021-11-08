@@ -1,0 +1,49 @@
+body {  
+      font-family: 'Bitter', serif;
+      background-color: #E8D2BE;
+      margin: 0;
+}
+
+.jump {
+	   font-family: 'Alfa Slab One', cursive;
+	   font-size: 1vw;
+	   color: whitesmoke;
+	   -webkit-text-stroke: .25px #b60202;
+     padding: 25px;
+     position: absolute;
+}
+
+h3 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 5vw;
+	font-weight: lighter;
+	color: whitesmoke;
+	letter-spacing: 3px;
+	-webkit-text-stroke: 2px #b60202;
+}
+
+p{
+  font-family: 'Bitter', serif;
+  line-height: 1.5;
+}
+
+img {
+	 height: 375px;
+	 width: 375px;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width:  100%;
+  margin: 0;
+}
+
+.textcolumn {
+	padding-right: 250px;
+	padding-left: 25px;
+	padding-top: 50px;
+}
+
+ 

@@ -1,0 +1,9 @@
+body {  
+	font-family: 'Alfa Slab One', cursive;
+	background-color: #E8D2BE;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}

@@ -1,0 +1,85 @@
+body {
+ background-color: #647e6b;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 125vh;
+  width: 125vh;
+}
+
+.button1 {
+  background-color: #8DDBE0;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+  height: 40vh;
+  width: 40vh;
+}
+.button2 {
+  background-color: #4B5043;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+   height: 40vh;
+  width: 40vh;
+}
+.button3 {
+  background-color: #D3FFE9;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+   height: 40vh;
+  width: 40vh;
+}
+.button4 {
+  background-color: #9BC4BC;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+   height: 40vh;
+  width: 40vh;
+}
+.button5 {
+  background-color: #090909;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+   height: 40vh;
+  width: 40vh;
+}
+.button6 {
+  background-color: #4B5043;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+   height: 40vh;
+  width: 40vh;
+}
+.button7 {
+  background-color: #D3FFE9;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+   height: 40vh;
+  width: 40vh;
+}
+.button8 {
+  background-color: #8DDBE0;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+   height: 40vh;
+  width: 40vh;
+}
+.button9 {
+  background-color: #9BC4BC;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+   height: 40vh;
+  width: 40vh;
+}
