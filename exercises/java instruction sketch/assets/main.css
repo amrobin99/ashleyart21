@@ -1,14 +1,18 @@
 body {
  background-color: #647e6b;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
 
-.grid {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  height: 125vh;
-  width: 125vh;
+.squares {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
 }
 
 .button1 {

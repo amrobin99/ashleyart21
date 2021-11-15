@@ -1,5 +1,6 @@
+
 let button = document.querySelector(".button");
-let colors = ["#255c34", "#726756", "#703a56", "#953e00"];
+let colors = ["#8DDBE0", "#4B5043", "#D3FFE9", "#9BC4BC"];
 let body = document.querySelector("body");
 
 function newColor() {

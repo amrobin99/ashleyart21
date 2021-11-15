@@ -1,0 +1,48 @@
+
+body {
+  margin: 0;
+  display: flex;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+/* i'm using the z index to move the slider on top of the container */
+.container {
+  z-index: 0;
+}
+
+.slider {
+  z-index: 1;
+  margin-top: 2em;
+  -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 500px; /* Specified height */
+    height: 50px; /* Specified height */
+    background: white; /* background color */
+    outline: none; /* Remove outline */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: all .2s;
+}
+
+
+.slider {
+  z-index: 1;
+  margin-top: 2em;
+  border: 1px solid black;
+  }
+
+
+.slider:hover {
+  opacity: 1; 
+  background-color: lightpink;
+  border: 1px solid black;
+}
+
+
+.copy {
+  font-family: arial;
+  font-size: 100px;
+  width:400px;
+}
