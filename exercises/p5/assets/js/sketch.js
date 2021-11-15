@@ -12,7 +12,7 @@ function setup() {
   slider = createSlider(10, 1000, 0);
   slider.class("slider");
 
- let txt = createDiv('.');
+ let txt = createDiv('');
   txt.class("copy")
   txt.position(50, 50);
 }
@@ -21,10 +21,10 @@ function draw() {
 
   fill("white");
   
-  translate(580, 200);
+  translate(580, 400);
   noStroke();
   for (let i = 0; i < 10; i ++) {
-    ellipse(0, 30, 20, 80);
+    ellipse(0, 60, 40, 160);
     rotate(PI/5);
   }
 
