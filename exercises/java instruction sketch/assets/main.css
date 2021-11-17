@@ -1,14 +1,14 @@
 body {
  background-color: #647e6b;
- margin: 0;
- padding: 0;
+ margin: 200px;
+ padding: 100;
  box-sizing: border-box;
 }
 
-.squares {
+.button {
   display: grid;
-  grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 200px 200px 200px;
+  max-height: 400px;
+  max-width: 400px;
   grid-template-areas: 
     "header header header"
     "main main main"
@@ -20,70 +20,70 @@ body {
   color: white;
   font-size: 30px;
   padding: 30px;
-  height: 40vh;
-  width: 40vh;
+  height: 20vh;
+  width: 20vh;
 }
 .button2 {
   background-color: #4B5043;
   color: white;
   font-size: 30px;
   padding: 30px;
-   height: 40vh;
-  width: 40vh;
+   height: 20vh;
+  width: 20vh;
 }
 .button3 {
   background-color: #D3FFE9;
   color: white;
   font-size: 30px;
   padding: 30px;
-   height: 40vh;
-  width: 40vh;
+   height: 20vh;
+  width: 20vh;
 }
 .button4 {
   background-color: #9BC4BC;
   color: white;
   font-size: 30px;
   padding: 30px;
-   height: 40vh;
-  width: 40vh;
+   height: 20vh;
+  width: 20vh;
 }
 .button5 {
   background-color: #090909;
   color: white;
   font-size: 30px;
   padding: 30px;
-   height: 40vh;
-  width: 40vh;
+   height: 20vh;
+  width: 20vh;
 }
 .button6 {
   background-color: #4B5043;
   color: white;
   font-size: 30px;
   padding: 30px;
-   height: 40vh;
-  width: 40vh;
+   height: 20vh;
+  width: 20vh;
 }
 .button7 {
   background-color: #D3FFE9;
   color: white;
   font-size: 30px;
   padding: 30px;
-   height: 40vh;
-  width: 40vh;
+   height: 20vh;
+  width: 20vh;
 }
 .button8 {
   background-color: #8DDBE0;
   color: white;
   font-size: 30px;
   padding: 30px;
-   height: 40vh;
-  width: 40vh;
+   height: 20vh;
+  width: 20vh;
 }
 .button9 {
   background-color: #9BC4BC;
   color: white;
   font-size: 30px;
   padding: 30px;
-   height: 40vh;
-  width: 40vh;
+   height: 20vh;
+  width: 20vh;
 }
