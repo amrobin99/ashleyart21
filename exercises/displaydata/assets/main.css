@@ -1,0 +1,34 @@
+body {
+  background-color: #EFEFD0;
+  color:  #FF6B35;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-weight: normal;
+  font-size:  50px;
+  padding-left: 450px;
+}
+
+svg {
+  /*background-color:  white;*/
+}
+
+svg:hover {
+  display: amount;
+}
+
+.tick {
+  font-size:  20px;
+  letter-spacing: 1px;
+}
+
+.domain {
+  display: none;
+}
+
+line {
+  display: none;
+}
