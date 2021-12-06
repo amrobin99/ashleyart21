@@ -1,3 +1,28 @@
 body{
-	background-color: lightyellow;
+	
+}
+
+.button { 
+	padding-top: 200px;
+    padding-left: 85px;
+
+}
+
+.item1 {
+  color: darkred;
+}
+
+.item2 {
+  color: blue;
+  padding-top: 250px;
+}
+
+.item3 {
+  color: yellow;
+  padding-top: 200px;
+}
+
+.item4 {
+  color: green;
+  padding-top: 200px;
 }
