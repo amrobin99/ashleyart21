@@ -1,37 +1,53 @@
 body{
 	background-color: #f1a8da;
-	padding: 25px;
+  margin: 50px;
 }
-
-p.double {border-style: double;}
-
-h1 {
-  padding-left: 550px;
-  font-family: 'Nixie One', arial;
-}
-
-p:hover {background-color: hotpink;}
-
-
-h2 {
-  text-align: center;
-  background-color: white;
-  border-style: double;
-  height: 30px;
-  padding-top: 7px;
-  font-family: sans-serif;
-}
-
 
 img {max-width: 440px;
      max-height: 440px;}
 
+.text {
+  background-color: #f0a8da;
+}
+
+h1 {
+  font-family: 'Oleo Script', cursive;
+  text-align: center;
+  font-size: 48px;
+  color: black;
+}
+
+h3 {
+  font-family: 'Oleo Script', cursive;
+  text-align: center;
+  font-size: 24px;
+ /* background-color: white;
+  border-style: double;
+  height: 30px;
+  padding-top: 7px;*/
+}
+
+p{
+ font-family: 'Carter One', cursive;
+ text-align: center;
+ font-size: 16px;
+}
+
+p:hover {
+  color: #a53664;
+}
+
 .container {
+  background-color: #f0a8da;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding:10px;
+  padding-right:200px;
+  padding-left:200px;
   min-height: 200px;
 }
 
+.item1 {
+  padding-top: 80px;
+}
 

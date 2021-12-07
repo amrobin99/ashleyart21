@@ -1,13 +1,16 @@
 let button = document.querySelector(".button");
 let ads = ["assets/images/blue.png", "assets/images/green.png", "assets/images/red.png", "assets/images/yellow.png"];
 let body = document.querySelector("body");
+let i = 0
 
 function newAd() {
-  let randIndex = Math.floor(Math.random() * ads.length);
-  let randAd = ads[randIndex];
-  body.style.backgroundImage = "url(" + randAd + ")";
-  console.log(randAd);
+  for (var i = 0; i < ads.length; i++) {
+    ads[i];
+    i++
+  body.style.backgroundImage = "url(" + ads[i] + ")";
+  }
 }
+console.log(ads[i])
 
 
 button.addEventListener("click", newAd);

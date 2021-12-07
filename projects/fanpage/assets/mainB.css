@@ -2,6 +2,7 @@ body {
       font-family: 'Bitter', serif;
       background-color: #E8D2BE;
       margin: 0;
+      -webkit-text-stroke: .25px;
 }
 
 .jump {
@@ -11,6 +12,7 @@ body {
 	   -webkit-text-stroke: .25px #b60202;
      padding: 25px;
      position: absolute;
+     margin: auto;
 }
 
 h3 {
@@ -25,6 +27,7 @@ h3 {
 p{
   font-family: 'Bitter', serif;
   line-height: 1.5;
+   -webkit-text-stroke: 1px;
 }
 
 img {

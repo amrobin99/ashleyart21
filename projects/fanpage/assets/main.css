@@ -18,6 +18,13 @@ img {width: 200px;
      max-width: 100%;
 }
 
+p {
+   font-family: 'Bitter', serif;
+   line-height: 1.5;
+   -webkit-text-stroke: 1px;
+   text-align: center;
+}
+
 .container {
 	display: flex;
 	flex-direction: row;
