@@ -1,4 +1,3 @@
-
 let slider; 
 
 function setup() {

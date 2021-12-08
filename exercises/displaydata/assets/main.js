@@ -44,10 +44,10 @@ function xAxis(g) {
   g.call(d3.axisBottom(x).tickFormat(i => data[i].name))
 }
 
-function hover(g){
-   g.attr("transform", `translate(${margin.left}, 0)`)
-   g.call(d3.center(x).tickFormat(i => data[i].amount))
-}
+// function hover(g){
+//    g.attr("transform", `translate(${margin.left}, 0)`)
+//    g.call(d3.center(x).tickFormat(i => data[i].amount))
+// }
 
 svg.append("g").call(xAxis);
 

@@ -1,32 +1,14 @@
 body{
-	
+  background-color: #1A2815;
 }
 
-h1 {font-family: 'Playball', cursive;
-  color: black;
+h3 {
+  font-family: 'Playball', cursive;
+  color: whitesmoke;
 }
 
 .button { 
-	padding-top: 200px;
-    padding-left: 85px;
-
-}
-
-/*.button1 {
-  color: #fb2900;
-}
-
-.button2 {
-  color: #0071bc;
-  padding-top: 250px;
-}
-
-.button3 {
-  color: #f4d14c;
   padding-top: 200px;
+  padding-left: 85px;
 }
 
-.button4 {
-  color: #3b9c30;
-  padding-top: 200px;
-}*/

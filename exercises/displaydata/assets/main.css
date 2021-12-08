@@ -12,6 +12,21 @@ h1 {
   padding-left: 450px;
 }
 
+h2 {
+  color: #fe6a34;
+  font-size: 18px;
+}
+
+h2:hover {
+  color: #f0efd0;
+}
+
+.values {
+  background-color: #fe6a34;
+  display: flex;
+  justify-content: space-around;
+}
+
 svg {
   /*background-color:  white;*/
 }
