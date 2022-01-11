@@ -1,0 +1,37 @@
+body {
+  background-color:  yellow;
+}
+
+.page-2 {
+  background-color:  blue;
+}
+
+/*this tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
+* {box-sizing:  border-box;}
+
+.container {
+  display:  flex;
+}
+
+img {
+  width:  100%;
+}
+
+.item {
+  width:  calc(100%/2);
+  padding: 5px;
+}
+
+nav {
+  background-color:  white;
+  position:  fixed;
+  padding:  10px;
+}
+
+a {
+  color:  black;
+}
+
+a:hover {
+  color: red;
+}

@@ -1,0 +1,34 @@
+body {  
+      /*background-color: #f4f1de;*/
+      background-color: whitesmoke;
+      font-family: 'Poppins', sans-serif;
+      color: black;
+      /*padding-left: 25px;*/
+      display: block;
+      margin: 8px;
+}
+
+.top {
+    padding-left: 32px;
+    padding-top: 12px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-left: 32px;
+    padding-right: 16px;
+}
+
+.lefttext {
+    padding-right: 60px;
+}
+
+.rightcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
