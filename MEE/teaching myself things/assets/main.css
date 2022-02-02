@@ -1,3 +1,47 @@
 body{
-	background-color: #bee1e6;
+	background-color: lightyellow;
+	color: darkorchid;
+}
+
+/*top comes from the id established on the html page*/
+#top{
+	color: darkgreen;
+}
+
+div{
+	background: orangered;
+	width: 500px;
+}
+
+span{
+	color: darkseagreen;
+}
+
+.degrassi{
+	background-color: skyblue;
+	color: darkblue;
+}
+
+.outer{
+	width: 400px;
+	height: 400px;
+	background-color: darkseagreen;
+}
+
+.inner{
+	width: 50%;
+	height: 50%;
+	background-color: lightgreen;
+}
+
+.sully{
+	width: 100vw;
+	height: 100vh;
+	background-color: powderblue;
+}
+
+.mike{
+	width: 100vw;
+	height: 100vh;
+	background-color: greenyellow;
 }
