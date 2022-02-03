@@ -1,6 +1,33 @@
 body{
 	background-color: #07001a;
+}
+
+.rowone{ 
 	color: #f0bdf2;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 24px;
+	width: 150vw;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis; 
+	-webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-animation: my-animation 60s linear infinite;
+    animation: my-animation 60s linear infinite;
+}
+ @-webkit-keyframes my-animation
+
+  from { -webkit-transform: translateX(-100%); }
+  to { -webkit-transform: translateX(100%); }
+
+@keyframes my-animation {
+  from {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+
 }

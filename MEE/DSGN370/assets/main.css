@@ -1,0 +1,33 @@
+body{
+	color: black;
+	background-color: #8b8680;
+}
+
+
+h1{
+	font-family: 'Alex Brush', cursive;
+}
+
+
+.words {
+	width: 97vw;
+	background-color: blueviolet;
+	flex-direction: row;
+}
+
+
+.title{
+     background-color: lightyellow;
+}
+
+
+.videos {
+	width: 95vw;
+	align-self: center;
+	margin: 100px;
+	display: flex;
+}
+
+
+
+
