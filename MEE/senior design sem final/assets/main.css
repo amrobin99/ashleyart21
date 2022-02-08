@@ -2,7 +2,15 @@ body{
 	background-color: #07001a;
 }
 
-.rowone{ 
+.top{
+    display: flex;
+    /* padding: 10px; */
+    background-color: #042135;
+    min-height: 250px;
+    font-size: 36px;
+}
+
+.rows{ 
 	color: #f0bdf2;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 24px;
