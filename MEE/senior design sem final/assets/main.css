@@ -1,41 +1,150 @@
 body{
-	background-color: #07001a;
+	background-color: whitesmoke;
+  font-family: 'Quicksand', sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 
-.top{
-    display: flex;
-    /* padding: 10px; */
-    background-color: #042135;
-    min-height: 250px;
-    font-size: 36px;
+
+/*NAVIGATION BAR*/
+
+.nav{
+  /*background-color: black;*/
+  display: block;
+  float: left;
+  padding: 14px 16px;
+  position: fixed;
+  text-decoration: none;
+  z-index: 1;
+  /*overflow: hidden;*/
 }
 
-.rows{ 
-	color: #f0bdf2;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 24px;
-	width: 150vw;
-	text-align: center;
-	overflow: hidden;
-	text-overflow: ellipsis; 
-	-webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-    -webkit-animation: my-animation 60s linear infinite;
-    animation: my-animation 60s linear infinite;
+.leftlinks{
+  word-spacing: 40px;
 }
- @-webkit-keyframes my-animation
 
-  from { -webkit-transform: translateX(-100%); }
-  to { -webkit-transform: translateX(100%); }
 
-@keyframes my-animation {
-  from {
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
-  to {
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
+/*LINK COLORS AND STYLE*/
+
+a:link {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #B89474ff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+/*SECTIONS */
+
+section{
+  height: 100vh;
+}
+
+
+/*SECTION TOP: VIDEO PREVIEW FULL SCREEN */
+
+.top {
+  /*background-color: lawngreen;*/
+  width: 100vw;
+}
+
+.headervid{
+  position: absolute;
+  opacity: 100%;
+  z-index: -1;
+  width: 100%;
+}
+
+#clip {
+  width: 100%;
+}
+
+
+
+/*SECTION SONGS: ALL THE SONGS*/
+
+
+.songs{
+  background-color: #E5CCB1;
+}
+
+.songtitles {
+  display: flex;
+  position: relative;
+  /*top: 0;
+  left: 0;*/
+  /*padding-top: 600px;*/
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 800px;
+  white-space: nowrap;
+  transform: scale(2);
+  transition: all 1s ease;
+  animation: scrollText 60s infinite linear;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #321F15ff;
+  transition: all 2s ease;
+}
+
+/*div:hover {
+  animation-play-state: paused;
+}
+*/
+
+@keyframes scrollText {
+  from   { transform: translateX(-50%); }
+  to { transform: translateX(0%); }
+}
+
+
+/*SECTION VIDEO: VIDEO*/
+
+.video{
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*SECTION SURVEY: SURVEY*/
+
+.survey{
+  background-color: #E5CCB1;
+}
+
+
+
+/*BACK TO THE TOP*/
+
+#back{
+  padding-top: 780px;
+  padding-left: 15px;
 
 }
+
+
+

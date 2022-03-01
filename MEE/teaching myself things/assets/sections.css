@@ -1,0 +1,30 @@
+
+/*MARGIN AUTO GETS RID OF ANY BORDER ON THE SITE*/
+
+body{
+  background-color: #000000;
+  color: #ffffff;
+  margin: auto;
+}
+
+
+/*HEIGHT: 100VH MAKES THE SECTION TAKE UP THE ENTIRE VIEWING SCREEN*/
+
+section{
+  height: 100vh;
+}
+
+
+.topsection{
+  background-color: mediumblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomsection{
+  background-color: deeppink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -17,6 +17,29 @@ span{
 	color: darkseagreen;
 }
 
+
+/*-- STYLING LINKS WITH NO UNDERLINE! THE ORDER OF LINK-VISITED-HOVER-ACTIVE IS IMPORTANT --*/
+a:link {
+  color: darkorchid;
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkorchid;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+a:active {
+  color: darkorchid;
+  text-decoration: none;
+}
+
+
 .degrassi{
 	background-color: skyblue;
 	color: darkblue;
