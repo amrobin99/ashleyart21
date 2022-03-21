@@ -4,37 +4,62 @@ body{
   height: 100%;
   width: 100%;
   margin: 0;
+  padding: 0;
 }
+
 
 
 /*NAVIGATION BAR*/
 
-.nav{
-  /*background-color: black;*/
+.topbar{
+  background-color: #321F15ff;
+  display: block;
+  /*float: left;*/
+  padding: 14px 16px;
+  width: 100%;
+  position: fixed;
+  text-decoration: none;
+  z-index: 1;
+}
+
+/*.nav{
+  background-color: beige;
   display: block;
   float: left;
   padding: 14px 16px;
   position: fixed;
   text-decoration: none;
   z-index: 1;
-  /*overflow: hidden;*/
-}
+  overflow: hidden;
+}*/
 
 .leftlinks{
   word-spacing: 40px;
+  opacity: 100%;
+  width: 50%;
+  float: left;
 }
+
+.rightlink{
+  text-align: right;
+  float: right;
+  width: 50%;
+  opacity: 100%;
+}
+
+
 
 
 /*LINK COLORS AND STYLE*/
 
 a:link {
-  color: black;
+  color: whitesmoke;
   font-size: 20px;
   text-decoration: none;
 }
 
 a:visited {
-  color: black;
+  color: whitesmoke;
   font-size: 20px;
   text-decoration: none;
 }
@@ -46,7 +71,7 @@ a:hover {
 }
 
 a:active {
-  color: black;
+  color: whitesmoke;
   font-size: 20px;
   text-decoration: none;
 }
@@ -70,7 +95,7 @@ section{
   position: absolute;
   opacity: 100%;
   z-index: -1;
-  width: 100%;
+  /*width: 50%;*/
 }
 
 #clip {
@@ -78,12 +103,26 @@ section{
 }
 
 
+.about{
+  background-color: tomato;
+}
+
+.description{
+  display: flex;
+  text-align: center;
+  color: black;
+  word-spacing: 1.5px;
+  font-size: 20px;
+  /*width: 75%;*/
+}
+
 
 /*SECTION SONGS: ALL THE SONGS*/
 
 
 .songs{
   background-color: #E5CCB1;
+  overflow: hidden;
 }
 
 .songtitles {
@@ -91,7 +130,7 @@ section{
   position: relative;
   /*top: 0;
   left: 0;*/
-  /*padding-top: 600px;*/
+  padding-top: 40px;
   align-items: center;
   justify-content: flex-start;
   width: 100%;
@@ -104,7 +143,7 @@ section{
 
 h1 {
   margin: 0;
-  font-size: 24px;
+  font-size: 23px;
   color: #321F15ff;
   transition: all 2s ease;
 }
@@ -137,12 +176,12 @@ h1 {
 }
 
 
-
 /*BACK TO THE TOP*/
 
 #back{
-  padding-top: 780px;
+  /*padding-top: 780px;*/
   padding-left: 15px;
+  text-align: center;
 
 }
 
