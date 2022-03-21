@@ -12,7 +12,8 @@ body{
 /*NAVIGATION BAR*/
 
 .topbar{
-  background-color: #321F15ff;
+  /*background-color: #321F15ff;*/
+  background-color: limegreen;
   display: block;
   /*float: left;*/
   padding: 14px 16px;
@@ -35,7 +36,6 @@ body{
 
 .leftlinks{
   word-spacing: 40px;
-  opacity: 100%;
   width: 50%;
   float: left;
 }
@@ -43,10 +43,12 @@ body{
 .rightlink{
   text-align: right;
   float: right;
-  width: 50%;
-  opacity: 100%;
 }
 
+#spotifyimage{
+  width: 25px;
+  margin-right: 50px;
+}
 
 
 
