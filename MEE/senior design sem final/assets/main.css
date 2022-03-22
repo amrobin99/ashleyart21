@@ -8,12 +8,10 @@ body{
 }
 
 
-
 /*NAVIGATION BAR*/
 
 .topbar{
-  /*background-color: #321F15ff;*/
-  background-color: limegreen;
+  background-color: #321F15;
   display: block;
   /*float: left;*/
   padding: 14px 16px;
@@ -22,17 +20,6 @@ body{
   text-decoration: none;
   z-index: 1;
 }
-
-/*.nav{
-  background-color: beige;
-  display: block;
-  float: left;
-  padding: 14px 16px;
-  position: fixed;
-  text-decoration: none;
-  z-index: 1;
-  overflow: hidden;
-}*/
 
 .leftlinks{
   word-spacing: 40px;
@@ -46,7 +33,7 @@ body{
 }
 
 #spotifyimage{
-  width: 25px;
+  width: 33px;
   margin-right: 50px;
 }
 
@@ -89,7 +76,6 @@ section{
 /*SECTION TOP: VIDEO PREVIEW FULL SCREEN */
 
 .top {
-  /*background-color: lawngreen;*/
   width: 100vw;
 }
 
@@ -97,25 +83,25 @@ section{
   position: absolute;
   opacity: 100%;
   z-index: -1;
-  /*width: 50%;*/
 }
 
 #clip {
   width: 100%;
+  margin-top: 25px;
 }
 
+/*SECTION ABOUT: PROJECT DESCRIPTION */
 
 .about{
-  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .description{
-  display: flex;
+  width: 75%;
+  font-size: 23px;
   text-align: center;
-  color: black;
-  word-spacing: 1.5px;
-  font-size: 20px;
-  /*width: 75%;*/
 }
 
 
@@ -132,7 +118,7 @@ section{
   position: relative;
   /*top: 0;
   left: 0;*/
-  padding-top: 40px;
+  padding-top: 30px;
   align-items: center;
   justify-content: flex-start;
   width: 100%;
@@ -146,6 +132,7 @@ section{
 h1 {
   margin: 0;
   font-size: 23px;
+  text-decoration: none;
   color: #321F15ff;
   transition: all 2s ease;
 }
@@ -180,11 +167,9 @@ h1 {
 
 /*BACK TO THE TOP*/
 
-#back{
-  /*padding-top: 780px;*/
+.backtotop{
+  background-color: tomato;
   padding-left: 15px;
-  text-align: center;
-
 }
 
 
